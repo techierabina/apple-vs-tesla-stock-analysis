@@ -28,17 +28,20 @@ Setup Instructions
 
 Clone the repository:
 
-bashgit clone https://github.com/techierabina/apple-vs-tesla-stock-analysis.git
+```bash
+git clone https://github.com/techierabina/apple-vs-tesla-stock-analysis.git
 cd apple-vs-tesla-stock-analysis
+```
 
 Create a Conda environment:
-
-bashconda create -n stock-analysis python=3.12 -y
+```bash
+conda create -n stock-analysis python=3.12 -y
 conda activate stock-analysis
-
+```
 Install dependencies:
-
-bashpip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 Usage
 Quick Start
 Run the main analysis script:
