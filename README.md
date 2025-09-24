@@ -13,21 +13,19 @@ It includes data download, analysis, visualization, and rolling averages.
 - `requirements.txt` - Dependencies
 - `README.md`  - This file
 
-Features
+## Features
 📈 Automated stock data download using Yahoo Finance API
 📊 Comprehensive statistical analysis of stock performance
 📉 Daily returns calculation and rolling averages
 🎨 Professional visualizations and charts
 💾 Export results to CSV and image files
 
-Installation
-Prerequisites
-
+## Installation
+# Prerequisites
 Python 3.12+
 Conda (recommended) or pip
 
-Setup Instructions
-
+# Setup Instructions
 Clone the repository:
 
 ```bash
@@ -44,25 +42,25 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Usage
-Quick Start
+## Usage
+# Quick Start
 Run the main analysis script:
 bashpython main.py
 What the Script Does
 This will automatically:
 
-Download Apple (AAPL) and Tesla (TSLA) stock data and save to data/ folder
+# Download Apple (AAPL) and Tesla (TSLA) stock data and save to data/ folder
 Compute daily returns and rolling averages (30-day default)
 Perform statistical analysis comparing both stocks
 Generate comprehensive visualizations
 Save all plots and results to the results/ folder
 
-Running Jupyter Notebooks
+# Running Jupyter Notebooks
 For interactive exploration:
 bashjupyter notebook notebooks/
 Dependencies
 
-Python 3.12+
+# Python 3.12+
 pandas - Data manipulation and analysis
 numpy - Numerical computing
 matplotlib - Plotting library
@@ -72,11 +70,11 @@ scikit-learn - Machine learning utilities
 statsmodels - Statistical modeling
 jupyter - Interactive notebook environment
 
-Sample Output
+# Sample Output
 The project generates several types of visualizations:
 Generated Plots
 
-Closing Prices Over Time - Historical stock price trends
+# Closing Prices Over Time - Historical stock price trends
 30-Day Rolling Average - Smoothed price movements
 Returns Distribution - Statistical distribution of daily returns
 Correlation Analysis - Relationship between AAPL and TSLA
@@ -89,7 +87,7 @@ Raw stock data: data/aapl_data.csv, data/tsla_data.csv
 Analysis results: results/analysis_summary.csv
 Statistical metrics: results/performance_metrics.csv
 
-Configuration
+# Configuration
 You can modify the analysis parameters by editing main.py:
 python# Example configuration options
 START_DATE = '2020-01-01'  # Analysis start date
@@ -99,7 +97,7 @@ Example Results
 Here's what you can expect from the analysis:
 Key Metrics Generated:
 
-Average daily returns
+# Average daily returns
 Volatility (standard deviation)
 Sharpe ratio
 Maximum drawdown
@@ -121,7 +119,7 @@ Commit your changes: git commit -m 'Add new feature'
 Push to the branch: git push origin feature-name
 Submit a pull request
 
-Roadmap
+# Roadmap
 
  Add more stocks for comparison (e.g., Google, Microsoft)
  Implement technical indicators (RSI, MACD, Bollinger Bands)
@@ -129,20 +127,11 @@ Roadmap
  Create interactive web dashboard
  Add real-time data updates
 
-Troubleshooting
-Common Issues:
-Q: Getting a yfinance connection error?
-A: Check your internet connection and try running the script again. Yahoo Finance occasionally has rate limiting.
-Q: Plots not displaying properly?
-A: Ensure you have a GUI backend for matplotlib installed: pip install PyQt5
-Q: Missing data for certain dates?
-A: Stock markets are closed on weekends and holidays, so gaps in data are normal.
-License
-MIT License - see LICENSE file for details.
-Author
+
+# Author
 Rabina Karki
 
-GitHub: @techierabina
+# GitHub: @techierabina
 
 
 This project is for educational purposes and should not be considered as financial advice.
