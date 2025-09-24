@@ -1,15 +1,17 @@
-Apple vs Tesla Stock Analysis
-Overview
-This project compares the stock performance of Apple (AAPL) and Tesla (TSLA). It includes data download, analysis, visualization, and rolling averages to provide insights into both stocks' historical performance.
-Project Structure
-apple-vs-tesla-stock-analysis/
-├── data/                   # CSV files with stock data
-├── notebooks/              # Jupyter notebooks for exploration
-├── src/                    # Python scripts for analysis
-├── results/                # Generated plots and output files
-├── main.py                 # Main execution script
-├── requirements.txt        # Project dependencies
-└── README.md              # This file
+# Apple vs Tesla Stock Analysis
+
+## Overview
+This project compares the stock performance of Apple (AAPL) and Tesla (TSLA).  
+It includes data download, analysis, visualization, and rolling averages.
+
+## Project Structure
+- `data/` - CSV files with stock data  
+- `notebooks/` - Jupyter notebooks for exploration  
+- `src/` - Python scripts for analysis  
+- `results/` - Plots and output  
+- `main.py` - Main script  
+- `requirements.txt` - Dependencies
+- `README.md`  - This file
 
 Features
 📈 Automated stock data download using Yahoo Finance API
